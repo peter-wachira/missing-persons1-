@@ -2,10 +2,10 @@ body{
   background-color: #FFFFFF;
 }
 .rep-heading{
-  color: #0097A7;
+  color: #00BCD4;
 }
 .color-bg{
-background-color: #B2EBF2;
+background-color: #00BCD4;
 }
 #phot-border{
   border: 0.1em solid  #B2EBF2 ;
@@ -22,4 +22,11 @@ background-color: #B2EBF2;
   margin-left: 40% ;
   margin-right:40%;
   width: 20%
+}
+.color-icon{
+color: #00BCD4;
+}
+.btn-search{
+background-color: #00BCD4;
+color: white;
 }

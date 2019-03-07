@@ -10,41 +10,45 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="css/get-involved.css" rel="stylesheet" type="text/css">
 </head>
 
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light" id="navigationBar">
+  <nav class="navbar navbar-expand-lg navbar-light navbar navbar-dark bg-dark" id="navigationBar">
     <div id="navigationItems">
-
-
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown" id="navItems">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <li id="patanisha-icon" class="nav-item active">
+          <a class="navbar-brand" href="#home">
+    <img src="images/IMG_7325.PNG" width="30" height="30" class="d-inline-block align-top" alt="">
+  </a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item ">
+          <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li  class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="missing-persons.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Find Someone
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Missing persons</a>
-            <a class="dropdown-item" href="#">Found people</a>
-            <a class="dropdown-item" href="#">Updates on Missing Persons</a>
+            <a class="dropdown-item" href="missing-persons.html">Missing persons</a>
+            <a class="dropdown-item" href="missing-persons#found-people">Found people</a>
+            <a class="dropdown-item" href="missing-persons.html#testimonials-header">Testimonials</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="get-involved.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Get involved
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#report-sighting">Report Sighting</a>
-            <a class="dropdown-item" href="#donation-types">Donations</a>
+            <a class="dropdown-item" href="get-involved.html#report-sighting">Report Sighting</a>
+            <a class="dropdown-item" href="get-involved.html#donation-types">Donations</a>
           </div>
         </li>
         <li class="nav-item">
@@ -62,9 +66,15 @@
           </div>
         </li>
       </ul>
-      <form class="form-inline">
+      <li  class="nav-link" class="nav-item active">
+
+          <a href="https://facebook.com/login/" class="fab fa-facebook color-icon">  </a></li>
+          <li  class="nav-link" class="nav-item active"><a href="https://twitter.com/login/" class="fab fa-instagram color-icon"></a></li>
+          <li  class="nav-link" class="nav-item active"><a href="https://instagram.com/login/ "class="fab fa-twitter-square color-icon"></a></li>
+          <li  id="last-icon" class="nav-link" class="nav-item active"><a href="https://gmail.com/" class="fas fa-envelope color-icon"> </a></li>
+      <form id="search-field" class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-primary btn-search my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
     </div>
@@ -196,7 +206,7 @@
     </div>
   </div>
  <button id="send-form" class="btn btn-primary" type="submit">Send  form</button><br><br>
- 
+
 </form>
 
 <div>
