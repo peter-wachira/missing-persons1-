@@ -7,3 +7,9 @@ body{
 .color-bg{
 background-color: #B2EBF2;
 }
+#phot-border{
+  border: 0.1em solid  #B2EBF2 ;
+}
+.first-heading{
+  text-align: center;
+}
