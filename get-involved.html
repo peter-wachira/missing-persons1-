@@ -126,7 +126,10 @@
 
       </form><br><br>
       </div>
-      <h1 class="heading">ABOUT YOU</h1>
+      <div class="col-md-6">
+
+      </div>
+      <h1 id="about-you" class="heading">ABOUT YOU</h1>
 <p>All information we receive is passed to the police. Your identity will remain confidential to Missing People unless you indicate that it is ok for us to pass your details on to the police. The police often do want to speak to the person who saw the missing person to check details and help them find the person.</p><br>
 
       <form class="needs-validation" novalidate>
@@ -181,12 +184,25 @@
      </div>
    </div>
  </div>
- <button class="btn btn-primary" type="submit">Send  form</button>
+ <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        May we give your name and contact details to the Police?
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+ <button id="send-form" class="btn btn-primary" type="submit">Send  form</button><br><br>
+ 
 </form>
 
 <div>
 
 </div>
+
 
 
     </div>

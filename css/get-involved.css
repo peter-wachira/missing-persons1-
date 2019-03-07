@@ -12,4 +12,14 @@ background-color: #B2EBF2;
 }
 .first-heading{
   text-align: center;
+  text-decoration: underline;
+}
+#about-you{
+  text-align: center;
+  text-decoration: underline;
+}
+#send-form{
+  margin-left: 40% ;
+  margin-right:40%;
+  width: 20%
 }
