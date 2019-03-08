@@ -1,0 +1,116 @@
+.icon-color {
+  color: #00BCD4;
+}
+
+.btn-search, .dropdown-color {
+  color: #fff;
+  background-color: #00BCD4;
+}
+
+#missing-people {
+  margin-top: 10rem;
+  border-bottom: 2px solid #BDBDBD;
+  padding-bottom: 3rem;
+}
+
+.card-profile {
+  column-count: 1;
+}
+
+.missing-column {
+  border: 1px solid #00BCD4;
+  text-align: center;
+}
+
+#missingSearch {
+  background-color: #00BCD4;
+  color: #ffffff;
+}
+
+#missingClear {
+  color: #ffffff;
+  background-color: #00BCD4;
+  display: none;
+}
+
+.missingBtn {
+  background-color: #00BCD4;
+  color: #ffffff;
+  display: block;
+  margin: 1rem auto;
+}
+
+.missing-img {
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personDetails, .foundDetails {
+  display: none;
+}
+
+#found-people {
+  margin-top: 3rem;
+}
+
+#found-search {
+  background-color: #00BCD4;
+  color: #ffffff;
+}
+
+#foundClear {
+  display: none;
+  background-color: #00BCD4;
+  color: #ffffff;
+}
+
+.foundBtn {
+  background-color: #00BCD4;
+  color: #ffffff;
+  display: block;
+  margin: 1rem auto;
+}
+
+#test-header {}
+
+.quotationmark {
+  border: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.quotationmark h3 {
+  font-size: 1.5rem;
+}
+
+.quotationmark h3:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 0.1em;
+  color: #5d5d5a;
+}
+
+.quotationmark h3:after {
+  content: close-quote;
+  visibility: hidden;
+}
+
+.blockquote-footer {
+  color: #5d5d5a;
+  text-align: right;
+  font-size: 1em;
+}
+
+.change-bg {
+  background-color: #00BCD4;
+  color: #ffffff;
+}
+
+#testimonials-header {
+  text-align: center;
+  margin: 5rem 0;
+  color: #ffffff;
+  background-color: #9E9E9E;
+}

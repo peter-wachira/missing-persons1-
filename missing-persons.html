@@ -1,0 +1,505 @@
+<!--
+
+    Created on :  March 2nd, 2019,  8:39:38 PM
+    Author     : Peter Wachira , Yasmin , Sheila Oigara , Mohammed Mwai
+
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Missing</title>
+  <link rel="icon" type="image/ico" href="images/logo.PNG" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/missing-persons.css" type="text/css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar navbar-dark bg-dark" id="navigationBar">
+    <div id="navigationItems">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" id="navItems">
+        <ul class="navbar-nav mr-auto">
+          <li id="patanisha-icon" class="nav-item active">
+            <a class="navbar-brand" href="#home">
+              <img src="images/IMG_7325.PNG" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="missing-persons.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Find Someone
+            </a>
+            <div class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="missing-persons.html">Missing persons</a>
+              <a class="dropdown-item" href="missing-persons.html#found-people">Found people</a>
+              <a class="dropdown-item" href="missing-persons.html#testimonials-header">Testimonials</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="get-involved.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get involved
+            </a>
+            <div class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="get-involved.html#report-sighting">Report Sighting</a>
+              <a class="dropdown-item" href="get-involved.html#donation-types">Donations</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+            <div class="dropdown-menu dropdown-color" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="resources.html#cont">Contact Authorities</a>
+              <a class="dropdown-item" href="resources.html#alpple">Hos pitals</a>
+              <a class="dropdown-item" href="resources.html#foude">Private investigators</a>
+              <a class="dropdown-item" href="resources.html#cont">Funeral Homes</a>
+            </div>
+          </li>
+        </ul>
+        <li class="nav-link nav-item active">
+          <a href="https://facebook.com/login/" target="_blank" class="fab fa-facebook icon-color"></a>
+        </li>
+        <li class="nav-link nav-item active">
+          <a href="https://instagram.com/login/" target="_blank" class="icon-color fab fa-instagram"></a>
+        </li>
+        <li class="nav-link nav-item active">
+          <a href="https://twitter.com/login/" target="_blank" class="fab icon-color fa-twitter-square"></a>
+        </li>
+        <li id="last-icon" class="nav-link nav-item active">
+          <a href="https://gmail.com/" target="_blank" class="icon-color fas fa-envelope"></a>
+        </li>
+        <form id="search-field" class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary btn-search my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!--Missing Persons  -->
+    <div class="row" id="missing-people">
+
+      <div class="col-md-3">
+        <h2>MISSING PERSONS</h2>
+        <form class="form-inline" id="missingForm">
+          <input class="form-control " type="search" placeholder="Enter first Name" aria-label="Search" id="missingName">
+          <button class="btn  my-2 my-sm-0" type="submit" id="missingSearch">Search</button>
+          <button type="button" name="button" class=" btn" id="missingClear">Clear</button>
+        </form>
+        <h3 id="displayResults"></h3>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card-columns card-profile">
+          <div class="card missing-column missingElements" id="personID1">
+            <img class="card-img-top missing-img" src="images/person1.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Jane Doe</p>
+              <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn1"> Details</button>
+            </div>
+            <div class="card-body personDetails" id="personDetails1">
+              <p><strong>Gender:</strong>Female</p>
+              <p><strong>Age:</strong> 22 years old</p>
+              <p><strong>Date of disapearance:</strong>2/8/17</p>
+              <p><strong>Place of disapearance:</strong>Nairobi</p>
+            </div>
+          </div>
+          <div class="card missing-column missingElements" id="personID2">
+            <img class="card-img-top missing-img" src="images/person2.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>John Dow</p>
+              <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn2"> Details</button>
+            </div>
+            <div class="card-body personDetails " id="personDetails2">
+              <p><strong>Gender:</strong>Male</p>
+              <p><strong>Age:</strong> 15 years old</p>
+              <p><strong>Date of disapearance:</strong>2/2/17</p>
+              <p><strong>Place of disapearance:</strong>Nairobi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card-columns card-profile">
+          <div class="card missing-column missingElements" id="personID3">
+            <img class="card-img-top missing-img" src="images/person3.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Jenny Pow</p>
+              <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn3"> Details</button>
+            </div>
+            <div class="card-body personDetails" id="personDetails3">
+              <p><strong>Gender:</strong>Female</p>
+              <p><strong>Age:</strong> 22 years old</p>
+              <p><strong>Date of disapearance:</strong>2/8/17</p>
+              <p><strong>Place of disapearance:</strong>Nairobi</p>
+            </div>
+          </div>
+          <div class="card missing-column missingElements" id="personID4">
+            <img class="card-img-top missing-img" src="images/person4.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Johnny Test</p>
+              <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn4"> Details</button>
+            </div>
+            <div class="card-body personDetails" id="personDetails4">
+              <p><strong>Gender:</strong>Male</p>
+              <p><strong>Age:</strong> 25 years old</p>
+              <p><strong>Date of disapearance:</strong>2/8/17</p>
+              <p><strong>Place of disapearance:</strong>Mombasa</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3 ">
+        <div class="card-columns card-profile">
+          <div class="card missing-column missingElements" id="personID5">
+            <img class="card-img-top missing-img" src="images/person1.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Joe Mel</p>
+              <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn5"> Details</button>
+            </div>
+            <div class="card-body personDetails" id="personDetails5">
+              <p><strong>Gender:</strong>Male</p>
+              <p><strong>Age:</strong> 52 years old</p>
+              <p><strong>Date of disapearance:</strong>2/8/18</p>
+              <p><strong>Place of disapearance:</strong>Kisumu</p>
+            </div>
+          </div>
+          <div class="card missing-column missingElements" id="personID6">
+            <img class="card-img-top missing-img" src="images/person2.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Jem Allie</p>
+              <button type="button" name="button1" class="btn btn-lg missingBtn" id="missingBtn6"> Details</button>
+            </div>
+            <div class="card-body personDetails" id="personDetails6">
+              <p><strong>Gender:</strong>Female</p>
+              <p><strong>Age:</strong> 31 years old</p>
+              <p><strong>Date of disapearance:</strong>2/2/19</p>
+              <p><strong>Place of disapearance:</strong>Nairobi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </div>
+    <!--Found Persons  -->
+    <div class="row" id="found-people">
+      <div class="col-md-3">
+        <h2>FOUND PERSONS</h2>
+        <form class="form-inline" id="foundForm">
+          <input class="form-control mr-sm-2" id="foundName" type="search" placeholder="Enter First Name" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit" id="found-search">Search</button>
+          <button type="button" name="button" class=" btn" id="foundClear">Clear</button>
+        </form>
+        <h3 id="displayResults2"></h3>
+      </div>
+      <div class="col-md-3">
+        <div class="card-columns card-profile">
+          <div class="card missing-column foundElements" id="foundID1">
+            <img class="card-img-top missing-img" src="images/person1.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>MaryBeth Omar</p>
+              <button type="button" name="button1" class="btn btn-lg foundBtn" id="foundBtn1"> Details</button>
+            </div>
+            <div class="card-body foundDetails" id="foundDetails1">
+              <p><strong>Gender:</strong>Female</p>
+              <p><strong>Age:</strong> 22 years old</p>
+            </div>
+          </div>
+          <div class="card missing-column foundElements" id="foundID2">
+            <img class="card-img-top missing-img" src="images/person2.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Felistas Wanjoe</p>
+              <button type="button" name="button1" class="btn btn-lg foundBtn" id="foundBtn2"> Details</button>
+            </div>
+            <div class="card-body foundDetails " id="foundDetails2">
+              <p><strong>Gender:</strong>Male</p>
+              <p><strong>Age:</strong> 15 years old</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card-columns card-profile">
+          <div class="card missing-column foundElements" id="foundID3">
+            <img class="card-img-top missing-img" src="images/person3.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Kip Mercy</p>
+              <button type="button" name="button1" class="btn btn-lg foundBtn" id="foundBtn3"> Details</button>
+            </div>
+            <div class="card-body foundDetails" id="foundDetails3">
+              <p><strong>Gender:</strong>Female</p>
+              <p><strong>Age:</strong> 22 years old</p>
+
+            </div>
+          </div>
+          <div class="card missing-column foundElements" id="foundID4">
+            <img class="card-img-top missing-img" src="images/person4.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Erastus Munene</p>
+              <button type="button" name="button1" class="btn btn-lg foundBtn" id="foundBtn4"> Details</button>
+            </div>
+            <div class="card-body foundDetails" id="foundDetails4">
+              <p><strong>Gender:</strong>Male</p>
+              <p><strong>Age:</strong> 25 years old</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-3">
+        <div class="card-columns card-profile">
+          <div class="card missing-column foundElements" id="foundID5">
+            <img class="card-img-top missing-img" src="images/person1.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Jim Perry</p>
+              <button type="button" name="button1" class="btn btn-lg foundBtn" id="foundBtn5"> Details</button>
+            </div>
+            <div class="card-body foundDetails" id="foundDetails5">
+              <p><strong>Gender:</strong>Male</p>
+              <p><strong>Age:</strong> 52 years old</p>
+
+            </div>
+          </div>
+          <div class="card missing-column foundElements" id="foundID6">
+            <img class="card-img-top missing-img" src="images/person2.png">
+            <div class="card-body">
+              <p><strong>Name:</strong>Jennifer Wanda</p>
+              <button type="button" name="button1" class="btn btn-lg foundBtn" id="foundBtn6"> Details</button>
+            </div>
+            <div class="card-body foundDetails" id="foundDetails6">
+              <p><strong>Gender:</strong>Female</p>
+              <p><strong>Age:</strong> 31 years old</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Testimonials  -->
+    <div class="row" id="testimonials-header">
+      <div class="col-md-12">
+        <h1>TESTIMONIALS</h1>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card-columns">
+          <div class="card">
+            <div class="card-body ">
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  This website is great. We had given up but now we have hope after finding our brother.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Faith Marylyn
+              </footer>
+
+            </div>
+          </div>
+          <div class="card change-bg">
+            <div class="card-body ">
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  I had been looking for my husband for the longest time. A friend recommended this website and when I did we were able to finally find him.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Josephine Wyatt
+              </footer>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body change-bg ">
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  I had lost all hope in finding my sister when she disappeared over a year ago. A was googling missing persons when i ran into this website. I decided to give it try. I am so grateful for all the work and help they put into his
+                  search. We were able to find her in about 6 months. Now we are reunited again.
+                </h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Yasmin Abdirahman
+              </footer>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body ">
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  Thanks to the website I was reunited with my daughter, after months of searching and despair, I especially loved your empathy and kindness throughout the search time. I can not quantify how grateful I am, my only hope is that you
+                  continue lighting other people's lives. Be Blessed.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Peter Wachira
+              </footer>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body ">
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  This website has been very helpful in tracking my cousin. She went missing a while back but we were able to find her. Thanks a lot for your help.</h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Sheila Tichi
+              </footer>
+            </div>
+          </div>
+          <div class="card change-bg">
+            <div class="card-body ">
+              <blockquote class="quotationmark"><br>
+                <h3>
+                  I had lost my brother on 25th December. He went outside to buy something but never came back. We tried to look for him but we could not find him. We reported him missing on this site and got feedback. We just got him back and we
+                  are grateful as a family for your help.
+                </h3><br>
+              </blockquote>
+              <footer class="blockquote-footer">
+                Mohammed Mwai
+              </footer>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <footer class="" id="footer">
+    <div class="row">
+      <div class="col-md-6">
+        <table id="tb">
+          <tr>
+            <th class="underline">GET HELP</th>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">I am missing</a></td>
+            <td><a class="link" href="#">&nbsp&nbsp&nbspi am thinking of running away</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">I am under 18 and have ran away</a></td>
+            <td> <a class="link" href="#">&nbsp&nbsp&nbspsomeone i love is missing</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">I need to report someone missing</a></td>
+            <td><a class="link" href="#">&nbsp&nbsp&nbsp i am thinking of running away</a></td>
+          </tr>
+
+
+        </table>
+
+
+      </div>
+      <div class="col-md-6">
+        <table>
+          <tr>
+            <th class="underline">GET INVOLVED</th>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Donate</a></td>
+            <td> <a class="link" href="#"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp partner with us</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Fundraise</a></td>
+            <td> <a class="link" href="#">&nbsp&nbsp&nbsp&nbsp&nbspleave a legacy</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Volunteer</a></td>
+            <td><a class="link" href="#">&nbsp&nbsp&nbsp&nbsp&nbsp working for us</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <table id="tb">
+          <tr>
+            <th class="underline">POLICIES</th>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">safeguarding,confidentiality</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">privacy and terms of use</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Accessibility</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Feedback and complains</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-2">
+        <table id="tb">
+          <tr>
+            <th class="underline">SITE TOOLS</th>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#"> Advanced search</a></td>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#">Sitemap</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Downloads</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table id="tb">
+          <tr>
+            <th class="underline">CONTACT US</th>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#"> POST Patanisha </a></td>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#">Ngong Lane Plaza</a></td>
+          </tr>
+          <tr>
+
+            <td><a class="link" href="#">Nairobi,kenya</a></td>
+          </tr>
+          <tr>
+            <td>tel:-+2549985323577</td>
+          </tr>
+          <tr>
+            <td>tax:- 020 8878 7752</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+
+</html>

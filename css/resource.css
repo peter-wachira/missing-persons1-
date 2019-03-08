@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(left, #FFFFFF, #BDBDBD);
+  overflow-x: hidden;
+  font-family: 'Noto Serif SC', serif;
+}
+
+#footer {
+  color: white;
+  background: -webkit-linear-gradient(left, #757575, #263238);
+}
+
+th {
+  color: #00bcd4;
+}
+
+.underline {
+  border-bottom: 2px solid #00bcd4;
+}
+
+#tb {
+  margin-left: 50px;
+}
+
+.link {
+  color: white;
+}

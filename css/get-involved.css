@@ -1,32 +1,64 @@
-body{
+body {
   background-color: #FFFFFF;
 }
-.rep-heading{
+
+.rep-heading {
   color: #00BCD4;
 }
-.color-bg{
-background-color: #00BCD4;
+
+.color-bg {
+  background-color: #00BCD4;
+  color: white;
 }
-#phot-border{
-  border: 0.1em solid  #B2EBF2 ;
+
+#phot-border {
+  border: 0.1em solid #B2EBF2;
 }
-.first-heading{
+
+.first-heading {
   text-align: center;
-  text-decoration: underline;
 }
-#about-you{
+
+#donation-types {
+  margin-top: 5rem;
+}
+
+#first-row-involved {
+  margin-top: 5rem;
+}
+
+#about-you {
   text-align: center;
-  text-decoration: underline;
+  color: #FFFFFF;
+  background-color: #00BCD4;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-#send-form{
-  margin-left: 40% ;
-  margin-right:40%;
+
+#send-form {
+  margin-left: 40%;
+  margin-right: 40%;
   width: 20%
 }
-.color-icon{
-color: #00BCD4;
+
+#patanisha {
+  height: 25%;
+  margin-bottom: 1rem;
 }
-.btn-search{
-background-color: #00BCD4;
-color: white;
+
+.color-icon {
+  color: #00BCD4;
+}
+
+.btn-search {
+  background-color: #00BCD4;
+  color: white;
+}
+
+body {
+  font-family: 'Noto Serif SC', serif;
+}
+
+#report-sighting {
+  margin-top: 5rem;
 }

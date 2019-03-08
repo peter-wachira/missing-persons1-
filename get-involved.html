@@ -4,289 +4,424 @@
 <head>
   <meta charset="utf-8">
   <title>Missing</title>
+  <link rel="icon" type="image/ico" href="images/logo.PNG" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="css/get-involved.css" rel="stylesheet" type="text/css">
+  <link href="css/get-involved.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
 </head>
 
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light navbar navbar-dark bg-dark" id="navigationBar">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar navbar-dark bg-dark" id="navigationBar">
     <div id="navigationItems">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown" id="navItems">
-      <ul class="navbar-nav mr-auto">
-        <li id="patanisha-icon" class="nav-item active">
-          <a class="navbar-brand" href="#home">
-    <img src="images/IMG_7325.PNG" width="30" height="30" class="d-inline-block align-top" alt="">
-  </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="#index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" id="navItems">
+        <ul class="navbar-nav mr-auto">
+          <li id="patanisha-icon" class="nav-item active">
+            <a class="navbar-brand" href="#home">
+              <img src="images/IMG_7325.PNG" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-        <li  class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="missing-persons.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Find Someone
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="missing-persons.html">Missing persons</a>
-            <a class="dropdown-item" href="missing-persons#found-people">Found people</a>
-            <a class="dropdown-item" href="missing-persons.html#testimonials-header">Testimonials</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="get-involved.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Get involved
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="get-involved.html#report-sighting">Report Sighting</a>
-            <a class="dropdown-item" href="get-involved.html#donation-types">Donations</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacts</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Resources
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Contact Authorities</a>
-            <a class="dropdown-item" href="#">Hospitals</a>
-            <a class="dropdown-item" href="#">Private investigators</a>
-            <a class="dropdown-item" href="#">Funeral Homes</a>
-          </div>
-        </li>
-      </ul>
-      <li  class="nav-link" class="nav-item active">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="missing-persons.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Find Someone
+            </a>
+            <div class="dropdown-menu btn-search" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="missing-persons.html">Missing persons</a>
+              <a class="dropdown-item" href="missing-persons.html#found-people">Found people</a>
+              <a class="dropdown-item" href="missing-persons.html#testimonials-header">Testimonials</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="get-involved.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Get involved
+            </a>
+            <div class="dropdown-menu btn-search" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="get-involved.html#report-sighting">Report Sighting</a>
+              <a class="dropdown-item" href="get-involved.html#donation-types">Donations</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contacts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+            <div class="dropdown-menu btn-search " aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="resources.html#cont">Contact Authorities</a>
+              <a class="dropdown-item" href="resources.html#hos">Hospitals</a>
+              <a class="dropdown-item" href="resources.html#pi">Private investigators</a>
+              <a class="dropdown-item" href="resources.html#cont">Funeral Homes</a>
+            </div>
+          </li>
+        </ul>
+        <li class="nav-link" class="nav-item active">
 
-          <a href="https://facebook.com/login/" class="fab fa-facebook color-icon">  </a></li>
-          <li  class="nav-link" class="nav-item active"><a href="https://twitter.com/login/" class="fab fa-instagram color-icon"></a></li>
-          <li  class="nav-link" class="nav-item active"><a href="https://instagram.com/login/ "class="fab fa-twitter-square color-icon"></a></li>
-          <li  id="last-icon" class="nav-link" class="nav-item active"><a href="https://gmail.com/" class="fas fa-envelope color-icon"> </a></li>
-      <form id="search-field" class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-primary btn-search my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
+          <a href="https://facebook.com/login/" class="fab fa-facebook color-icon"> </a></li>
+        <li class="nav-link" class="nav-item active"><a href="https://twitter.com/login/" class="fab fa-instagram color-icon"></a></li>
+        <li class="nav-link" class="nav-item active"><a href="https://instagram.com/login/ " class="fab fa-twitter-square color-icon"></a></li>
+        <li id="last-icon" class="nav-link" class="nav-item active"><a href="https://gmail.com/" class="fas fa-envelope color-icon"> </a></li>
+        <form id="search-field" class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary btn-search my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
     </div>
   </nav>
   <div class="container">
-    <div id="report-sighting" class="well">
+    <div id="report-sighting" class="well"><br><br>
+
       <h1 class="first-heading">REPORT A SIGHTING</h1>
-      <div class="col-md-6">
-      <form class="" action="index.html" method="post">
-        <h2 class="rep-heading">NAME OF MISSING PERSONS</h2>
-        <label><strong>First Name:</strong></label>
-          <input id="first-name" type="text" name="" value=""><br>
-          <label><strong>Last Name:</strong></label>
-          <input id="second-name" type="text" name="" value=""><br><br>
+      <div class="row" id="first-row-involved">
+        <div class="col-md-6">
+          <form class="" action="#" method="post">
+            <div class="form-group">
+              <h4 class="rep-heading">Name of missing person</h4>
+              <label><strong>First Name:</strong></label>
+              <input type="text" class="form-control" id="first-name" type="text" name="" value=""><br>
+              <label><strong>Last Name:</strong></label>
+              <input id="second-name" type="text" name="" value="" class="form-control"><br>
 
+              <h4 class="rep-heading">Time and date</h4>
+              <div class="form-group">
+                <label for="date">What Date did you see the missing person:</label>
+                <input id="date" class="form-control" type="date">
+              </div>
+              <label><strong>What time did you see the missing person:</strong></label>
+              <input id="time" type="text" name="" value="" class="form-control"><br>
 
-          <h2 class="rep-heading">TIME AND DATE</h2>
+              <h4 class="rep-heading">Location</h4>
+              <p>Please be as specific as you can with your geographical location.</p>
+              <label><strong>Where did you see the missing person:</strong></label>
+              <input id="place" type="text" name="" value="" class="form-control"><br>
 
-
-      <div class="form-group">
-        <label for="date">What Date did you see the missing person:</label>
-        <input id="date" class="form-control" type="date">
-        </div>
-        <label><strong>What time did you see the missing person:</strong></label>
-          <input id="time" type="text" name="" value=""><br><br>
-
-          <h2 class="rep-heading">LOCATION</h2>
-          <p>Please be as specific as you can with your geographical location.</p>
-          <label><strong>Where did you see the missing person:</strong></label>
-            <input id="place" type="text" name="" value=""><br>
-
-            <h2 class="rep-heading">PHYSICAL APPEARANCE</h2>
-            <p>Please fill in as much detail as you remember. For example, please include age, height, build, ethnic appearance, hair colour and style, eye colour, tattoos, piercings or any other distinctive feature they have.</p>
-            <label><strong>What did the missing person look like:</strong></label>
-              <input id="look" type="text" name="" value=""><br><br>
+              <h4 class="rep-heading">Physical Appearance</h4>
+              <p>Please fill in as much detail as you remember. For example, please include age, height, build, ethnic appearance, hair colour and style, eye colour, tattoos, piercings or any other distinctive feature they have.</p>
+              <label><strong>What did the missing person look like:</strong></label>
+              <input id="look" type="text" name="" value="" class="form-control"><br>
 
               <p>What Were they wearing:</p>
               <p>Please fill in as much detail as you remember. For example please include clothing, jewellery and any belongings that they had with them.</p>
 
               <label><strong>What were they wearing?:</strong></label>
-                <input id="look" type="text" name="" value=""><br><br>
+              <input id="look" type="text" name="" value="" class="form-control"><br>
 
-                <h2 class="rep-heading">PUBLICITY</h2>
-                <p>How did you find out about us? </p>
-                <select class="form-control" id="publicity">
-        <option>poster</option>
-        <option>Tv</option>
-        <option>Newspaper</option>
-        <option>Social media</option>
-        <option >other</option>
-      </select><br>
-
-
-                  <div class="form-group">
-                    <label for="date">What Date did you see it:</label>
-                    <input id="date" class="form-control" type="date">
-                    </div>
+              <h4 class="rep-heading">Publicity</h4>
+              <p>How did you find out about us? </p>
+              <select class="form-control" id="publicity">
+                <option>poster</option>
+                <option>Tv</option>
+                <option>Newspaper</option>
+                <option>Social media</option>
+                <option>other</option>
+              </select><br>
 
 
-      </form><br><br>
+              <div class="form-group">
+                <label for="date">What Date did you see it:</label>
+                <input id="date" class="form-control" type="date" class="form-control">
+              </div>
+
+            </div>
+          </form><br><br>
+        </div>
+        <div class="col-md-6 ">
+          <div class="card">
+            <img id="patanisha" src="images/logo.PNG" class="card-img-top" alt="...">
+          </div><br>
+          <div class="card">
+            <img src="images/yas.jpg" class="card-img-top" alt="...">
+          </div><br>
+          <div class="card">
+            <img src="images/fam.jpg" class="card-img-top" alt="...">
+          </div><br>
+
+
+        </div>
       </div>
-      <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12" id="about-you">
+          <h1 class="heading">ABOUT YOU</h1>
+          <p>All information we receive is passed to the police. Your identity will remain confidential to Missing People unless you indicate that it is ok for us to pass your details on to the police. The police often do want to speak to the person
+            who
+            saw the missing person to check details and help them find the person.</p>
+
+        </div>
 
       </div>
-      <h1 id="about-you" class="heading">ABOUT YOU</h1>
-<p>All information we receive is passed to the police. Your identity will remain confidential to Missing People unless you indicate that it is ok for us to pass your details on to the police. The police often do want to speak to the person who saw the missing person to check details and help them find the person.</p><br>
 
       <form class="needs-validation" novalidate>
- <div class="form-row">
-   <div class="col-md-4 mb-3">
-     <label for="validationTooltip01">First name</label>
-     <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="" required>
-     <div class="valid-tooltip">
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip01">First name</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="" required>
+            <div class="valid-tooltip">
 
-     </div>
-   </div>
-   <div class="col-md-4 mb-3">
-     <label for="validationTooltip02">Last name</label>
-     <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="" required>
-     <div class="valid-tooltip">
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip02">Last name</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="" required>
+            <div class="valid-tooltip">
 
-     </div>
-   </div>
-   <div class="col-md-4 mb-3">
-     <label for="validationTooltipUsername">email</label>
-     <div class="input-group">
-       <div class="input-group-prepend">
-         <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-       </div>
-       <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Email" aria-describedby="validationTooltipUsernamePrepend" required>
-       <div class="invalid-tooltip">
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltipUsername">email</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Email" aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
 
-       </div>
-     </div>
-   </div>
- </div>
- <div class="form-row">
-   <div class="col-md-6 mb-3">
-     <label for="validationTooltip03">City</label>
-     <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
-     <div class="invalid-tooltip">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">City</label>
+            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+            <div class="invalid-tooltip">
 
-     </div>
-   </div>
-   <div class="col-md-3 mb-3">
-     <label for="validationTooltip04">Address</label>
-     <input type="text" class="form-control" id="validationTooltip04" placeholder="Address" required>
-     <div class="invalid-tooltip">
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Address</label>
+            <input type="text" class="form-control" id="validationTooltip04" placeholder="Address" required>
+            <div class="invalid-tooltip">
 
-     </div>
-   </div>
-   <div class="col-md-3 mb-3">
-     <label for="validationTooltip05">Postal Code</label>
-     <input type="text" class="form-control" id="validationTooltip05" placeholder="Postal Code" required>
-     <div class="invalid-tooltip">
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip05">Postal Code</label>
+            <input type="text" class="form-control" id="validationTooltip05" placeholder="Postal Code" required>
+            <div class="invalid-tooltip">
 
-     </div>
-   </div>
- </div>
- <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-      <label class="form-check-label" for="invalidCheck">
-        May we give your name and contact details to the Police?
-      </label>
-      <div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
-  </div>
- <button id="send-form" class="btn btn-primary" type="submit">Send  form</button><br><br>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              May we give your name and contact details to the Police?
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <button id="send-form" class="btn color-bg" type="submit">Send form</button><br><br>
 
-</form>
+      </form>
 
-<div>
+      <div>
 
-</div>
-
-
-
-    </div>
-    <div id="donation-types"class="row">
-      <div class="card-columns">
- <div id="phot-border" class="card">
-   <img class="card-img-top" src="images/ya.png" alt="Card image cap">
-   <div class="card-body ">
-     <h5 class="card-title">BANK TRANSFERS</h5>
-     <ul>
-       <li>Bank of Africa.</li>
-       <li>Barclays</li>
-       <li>Standard Chatered</li>
-       </ul>
-   </div>
- </div>
- <div class="card p-3 ">
-   <blockquote class="blockquote mb-0 card-body color-bg">
-     <p>Bank Account details  </p>
-     <ul>
-       <li>Account no:12448447</li>
-       <li>Account no:98608735</li>
-       <li>Account no:08636383</li>
-       </ul>
-
-
-
-   </blockquote>
- </div>
- <div class="card">
-   <img class="card-img-top" src="images/wasee.jpeg" alt="Card image cap">
-   <div class="card-body ">
-     <h5 class="card-title">DONATE NOW!</h5>
-     <p class="card-text">By supporting us, you are helping us to bring missing children and adults to safety and to support their families desperately waiting for news.</p>
-
-   </div>
- </div>
- <div id="phot-border" class="card   text-center p-3 ">
-   <blockquote class="blockquote mb-0">
-     <h3>How do these donations help us: </h3>
-     <ul>
-    <li> Communication.</li>
-    <li>  Publicizing the website through ads.</li>
-    <li>  helps us pay for an extra pair of hands. </li>
-</ul>
-   </blockquote>
- </div>
- <div class="card text-center">
-   <div class="card-body color-bg">
-     <h5 class="card-title">Families need your help</h5>
-     <p class="card-text">Please donate today and help us be a lifeline for those who need it most.</p>
-
-   </div>
- </div>
- <div id="phot-border" class="card">
-   <img class="card-img-top" src="images/mpesaa.jpeg" alt="Card image cap">
-   <div class="card-body ">
-     <h5 class="card-title">MOBILE MONEY TRANSFER</h5>
-     <p class="card-text">Send over your donations to our till number till Number:<strong>345678</strong>.</p>
-   </div>
- </div>
- <div class="card color-bg p-3 text-right">
-   <blockquote class="blockquote mb-0">
-     <p>By remembering Missing People with a gift in your Will, you are making a unique and special commitment. Your legacy to Missing People will help us continue to be a lifeline when it's needed most..</p>
-     <footer class="blockquote-footer">
-
-     </footer>
-   </blockquote>
- </div>
-
-</div>
       </div>
 
+
+
+    </div>
+    <div id="donation-types" class="row">
+      <div class="col-sm-12">
+        <div class="card-columns">
+          <div id="phot-border" class="card">
+            <img class="card-img-top" src="images/ya.png" alt="Card image cap">
+            <div class="card-body ">
+              <h5 class="card-title">BANK TRANSFERS</h5>
+              <ul>
+                <li>Bank of Africa.</li>
+                <li>Barclays</li>
+                <li>Standard Chatered</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card p-3 ">
+            <blockquote class="blockquote mb-0 card-body color-bg">
+              <p>Bank Account details </p>
+              <ul>
+                <li>Account no:12448447</li>
+                <li>Account no:98608735</li>
+                <li>Account no:08636383</li>
+              </ul>
+
+
+
+            </blockquote>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/wasee.jpeg" alt="Card image cap">
+            <div class="card-body ">
+              <h5 class="card-title">DONATE NOW!</h5>
+              <p class="card-text">By supporting us, you are helping us to bring missing children and adults to safety and to support their families desperately waiting for news.</p>
+
+            </div>
+          </div>
+          <div id="phot-border" class="card   text-center p-3 ">
+            <blockquote class="blockquote mb-0">
+              <h3>How do these donations help us: </h3>
+              <ul>
+                <li> Communication.</li>
+                <li> Publicizing the website through ads.</li>
+                <li> helps us pay for an extra pair of hands. </li>
+              </ul>
+            </blockquote>
+          </div>
+          <div class="card text-center">
+            <div class="card-body color-bg">
+              <h5 class="card-title">Families need your help</h5>
+              <p class="card-text">Please donate today and help us be a lifeline for those who need it most.</p>
+
+            </div>
+          </div>
+          <div id="phot-border" class="card">
+            <img class="card-img-top" src="images/mpesaa.jpeg" alt="Card image cap">
+            <div class="card-body ">
+              <h5 class="card-title">MOBILE MONEY TRANSFER</h5>
+              <p class="card-text">Send over your donations to our till number till Number:<strong>345678</strong>.</p>
+            </div>
+          </div>
+          <div class="card color-bg p-3 text-right">
+            <blockquote class="blockquote mb-0">
+              <p>By remembering Missing People with a gift in your Will, you are making a unique and special commitment. Your legacy to Missing People will help us continue to be a lifeline when it's needed most..</p>
+              <footer class="blockquote-footer">
+
+              </footer>
+            </blockquote>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
   </div>
+  <footer class="" id="footer">
+    <div class="row">
+      <div class="col-md-6">
+        <table id="tb">
+          <tr>
+            <th class="underline">GET HELP</th>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">I am missing</a></td>
+            <td><a class="link" href="#">&nbsp&nbsp&nbspi am thinking of running away</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">I am under 18 and have ran away</a></td>
+            <td> <a class="link" href="#">&nbsp&nbsp&nbspsomeone i love is missing</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">I need to report someone missing</a></td>
+            <td><a class="link" href="#">&nbsp&nbsp&nbsp i am thinking of running away</a></td>
+          </tr>
+
+
+        </table>
+
+
+      </div>
+      <div class="col-md-6">
+        <table>
+          <tr>
+            <th class="underline">GET INVOLVED</th>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Donate</a></td>
+            <td> <a class="link" href="#"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp partner with us</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Fundraise</a></td>
+            <td> <a class="link" href="#">&nbsp&nbsp&nbsp&nbsp&nbspleave a legacy</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Volunteer</a></td>
+            <td><a class="link" href="#">&nbsp&nbsp&nbsp&nbsp&nbsp working for us</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <table id="tb">
+          <tr>
+            <th class="underline">POLICIES</th>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">safeguarding,confidentiality</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">privacy and terms of use</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Accessibility</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Feedback and complains</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-2">
+        <table id="tb">
+          <tr>
+            <th class="underline">SITE TOOLS</th>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#"> Advanced search</a></td>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#">Sitemap</a></td>
+          </tr>
+          <tr>
+            <td><a class="link" href="#">Downloads</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table id="tb">
+          <tr>
+            <th class="underline">CONTACT US</th>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#"> POST Patanisha </a></td>
+          </tr>
+          <tr>
+
+            <td> <a class="link" href="#">Ngong Lane Plaza</a></td>
+          </tr>
+          <tr>
+
+            <td><a class="link" href="#">Nairobi,kenya</a></td>
+          </tr>
+          <tr>
+            <td>tel:-+2549985323577</td>
+          </tr>
+          <tr>
+            <td>tax:- 020 8878 7752</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  </footer>
 
   <script src="js/scripts.js" charset="utf-8"></script>
 </body>

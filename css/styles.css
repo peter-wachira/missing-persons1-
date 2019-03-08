@@ -1,14 +1,47 @@
-#navigationBar{
-
+#navigationBar {
   background-color: #5d5d5a;
   color: #ffa45c;
 }
-.nav-link{
+
+.nav-link {
   color: #ffa45c;
 }
-#try{
-  0fj89margin-left:123
+
+#try {
+  0fj89margin-left: 123
 }
-body{
-  background-color: #fff4e3;
+
+body {
+  background: -webkit-linear-gradient(left, #FFFFFF, #BDBDBD);
+  font-family: 'Noto Serif SC', serif;
+}
+
+#footer {
+  color: white;
+  background: -webkit-linear-gradient(left, #757575, #263238);
+}
+
+th {
+  color: #00bcd4;
+}
+
+.underline {
+  border-bottom: 2px solid #00bcd4;
+}
+
+#tb {
+  margin-left: 50px;
+}
+
+.link {
+  color: white;
+}
+
+.icon-color {
+  color: #00BCD4;
+}
+
+.btn-blue {
+  background-color: #00BCD4;
+  color: white;
 }
