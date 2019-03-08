@@ -127,7 +127,6 @@ $(document).ready(function() {
     var id = 1;
     var firstName = $("input#missingName").val();
     var checkName = searchName(firstName, id);
-    alert(checkName);
     var elementName = checkID(checkName, id);
     showResults(elementName, id);
   });
